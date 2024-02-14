@@ -19,8 +19,8 @@ plugins:
                   - jekyll-toc
 
 # server
-baseurl:          "/material" # workaround for our GitHub Pages hosting
-destination:      "gh-pages/material" # workaround for our GitHub Pages hosting
+baseurl:          "/" # workaround for our GitHub Pages hosting
+destination:      "gh-pages/" # workaround for our GitHub Pages hosting
 encoding:         "UTF-8"
 exclude:          
                   - .babelrc.js
@@ -43,12 +43,12 @@ exclude:
 host:             0.0.0.0
 port:             9999
 source:           "."
-url:              "http://daemonite.github.io"
+url:              "http://git.nanang.id"
 
 # social
-authors:          "Daemonite"
+authors:          "Nanang Git"
 description:      "Daemonite's Material UI is a cross-platform and fully responsive front-end interface based on Google Material Design developed using Bootstrap 4."
-title:            "Material"
+title:            "Nanang Git"
 
 # toc
 toc:
@@ -77,4 +77,4 @@ id:
   main:           "doc-main-h1"
   navbar:         "doc-navbar"
   navdrawer:      "doc-navdrawer"
-repo:             "https://github.com/Daemonite/material"
+repo:             "https://github.com/nanangsb/nanangsb.github.io"
