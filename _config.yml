@@ -40,7 +40,6 @@ exclude:
                   - package.json
                   - package-lock.json
                   - README.md
-                  - material
 host:             0.0.0.0
 port:             9999
 source:           "."
@@ -48,7 +47,7 @@ url:              "http://git.nanang.id"
 
 # social
 authors:          "Nanang Git"
-description:      "Daemonite's Material UI is a cross-platform and fully responsive front-end interface based on Google Material Design developed using Bootstrap 4."
+description:      "Tempat belajar pengetahuan dasar html, css, php, linux dan lain sebagainya"
 title:            "Nanang Git"
 
 # toc
