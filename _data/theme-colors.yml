@@ -1,46 +1,6 @@
 - name: primary
-  hex: "#9c27b0"
+  hex: "#4caf50"  # Green primary color
   text: "#ffffff"
-  levels:
-    - name: dark
-      hex: "#7b1fa2"
-      text: "#ffffff"
-    - name: light
-      hex: "#e1bee7"
-      text: "#212121"
-- name: secondary
-  hex: "#ff4081"
-  text: "#ffffff"
-  levels:
-    - name: dark
-      hex: "#f50057"
-      text: "#ffffff"
-    - name: light
-      hex: "#ff80ab"
-      text: "#212121"
-- name: danger
-  hex: "#f44336"
-  text: "#ffffff"
-  levels:
-    - name: dark
-      hex: "#d32f2f"
-      text: "#ffffff"
-    - name: light
-      hex: "#ffcdd2"
-      text: "#212121"
-- name: info
-  hex: "#2196f3"
-  text: "#212121"
-  levels:
-    - name: dark
-      hex: "#1976d2"
-      text: "#ffffff"
-    - name: light
-      hex: "#bbdefb"
-      text: "#212121"
-- name: success
-  hex: "#4caf50"
-  text: "#212121"
   levels:
     - name: dark
       hex: "#388e3c"
@@ -48,15 +8,55 @@
     - name: light
       hex: "#c8e6c9"
       text: "#212121"
-- name: warning
-  hex: "#ff9800"
+- name: secondary
+  hex: "#8bc34a"  # Green secondary color
+  text: "#ffffff"
+  levels:
+    - name: dark
+      hex: "#689f38"
+      text: "#ffffff"
+    - name: light
+      hex: "#dcedc8"
+      text: "#212121"
+- name: danger
+  hex: "#689f38"  # Adjusted to green
+  text: "#ffffff"
+  levels:
+    - name: dark
+      hex: "#558b2f"
+      text: "#ffffff"
+    - name: light
+      hex: "#8bc34a"
+      text: "#212121"
+- name: info
+  hex: "#8bc34a"  # Adjusted to green
   text: "#212121"
   levels:
     - name: dark
-      hex: "#f57c00"
-      text: "#212121"
+      hex: "#689f38"
+      text: "#ffffff"
     - name: light
-      hex: "#ffe0b2"
+      hex: "#dcedc8"
+      text: "#212121"
+- name: success
+  hex: "#8bc34a"  # Adjusted to green
+  text: "#212121"
+  levels:
+    - name: dark
+      hex: "#689f38"
+      text: "#ffffff"
+    - name: light
+      hex: "#dcedc8"
+      text: "#212121"
+- name: warning
+  hex: "#8bc34a"  # Adjusted to green
+  text: "#212121"
+  levels:
+    - name: dark
+      hex: "#689f38"
+      text: "#ffffff"
+    - name: light
+      hex: "#dcedc8"
       text: "#212121"
 - name: dark
   hex: "#424242"
