@@ -1,3 +1,5 @@
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 # Material
 
 [![Backers on Open Collective](https://opencollective.com/material/backers/badge.svg)](#backers)
