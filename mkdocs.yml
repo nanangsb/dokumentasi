@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Nanang Git
+site_url: https://git.nanang.id/site
 site_description: >-
   Pembelajaran web open source berbahasa indonesia
   
