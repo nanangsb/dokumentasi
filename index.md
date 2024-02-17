@@ -1,9 +1,5 @@
----
-template: home.html
-title: Material for MkDocs
-social:
-  cards_layout_options:
-    title: Documentation that simply works
----
+{% extends "base.html" %}
 
-Welcome to Material for MkDocs.
+{% block htmltitle %}
+  <title>Lorem ipsum dolor sit amet</title>
+{% endblock %}
