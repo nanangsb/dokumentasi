@@ -1,9 +1,13 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Nanang Git
-site_url: https://git.nanang.id/site
+site_url: https://git.nanang.id
 site_description: >-
   Pembelajaran web open source berbahasa indonesia
-  
+
+  # Repository
+repo_name: nanangsb/nanangsb.github.io
+repo_url: https://github.com/nanangsb/nanangsb.github.io
+
 theme:
   logo: assets/logo.svg
   name: material
