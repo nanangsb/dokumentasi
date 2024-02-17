@@ -73,7 +73,6 @@ plugins:
   - search
   - tags:
         tags_file: tags.md
-  - table-reader
   
 markdown_extensions: 
   - attr_list
