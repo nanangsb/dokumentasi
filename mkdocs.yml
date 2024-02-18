@@ -68,11 +68,31 @@ theme:
        
 plugins:
   - offline
-  - blog
+  - blog:
+      pagination_per_page: 5
+      pagination_url_format: "{page}"
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      blog_toc: true
+      post_date_format: full
+      post_url_format: "{slug}"
+      post_excerpt: optional
+      post_excerpt_separator: <!-- more -->
+      archive_date_format: MMMM yyyy
+      archive_toc: true
+      categories_name: Kategori
+      categories_toc: true
   - privacy
   - search
   - tags:
         tags_file: tags.md
+  - rss:
+      enabled: !ENV [CI, false]
+      match_path: blog/post/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
   
 markdown_extensions: 
   - attr_list
