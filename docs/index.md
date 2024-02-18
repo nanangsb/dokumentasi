@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -15,3 +15,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
