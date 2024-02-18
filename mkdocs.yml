@@ -68,6 +68,7 @@ theme:
        
 plugins:
   - offline
+  - glightbox
   - blog:
       pagination_per_page: 5
       pagination_url_format: "{page}"
@@ -113,6 +114,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
     
 extra_css:
   - stylesheets/extra.css
