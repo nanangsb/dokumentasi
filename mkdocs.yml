@@ -5,8 +5,8 @@ site_description: >-
   Pembelajaran web open source berbahasa indonesia
 
   # Repository
-repo_name: nanangsb/nanangsb.github.io
-repo_url: https://github.com/nanangsb/nanangsb.github.io
+repo_name: nanangsb/dokumentasi
+repo_url: https://github.com/nanangsb/dokumentasi
 
 theme:
   logo: assets/logo.svg
